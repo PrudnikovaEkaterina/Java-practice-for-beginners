@@ -37,4 +37,8 @@ class Point {
         result = 31 * result + y;
         return result;
     }
+
+    public String toString (){
+        return String.valueOf(x)+" "+String.valueOf(y);
+    }
 }

@@ -1,7 +1,7 @@
 package volatil;
 
 public class MyThread extends Thread{
-    private boolean var = true;
+    private volatile boolean var = true;
     public void run(){
         while (var)
             System.out.println("Hello");

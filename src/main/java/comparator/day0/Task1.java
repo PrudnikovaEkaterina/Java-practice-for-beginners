@@ -1,4 +1,4 @@
-package day0;
+package comparator.day0;
 
 public class Task1 {
     public static void main(String[] args) {
